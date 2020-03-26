@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys, os
 import argparse
 from argparse import RawTextHelpFormatter
