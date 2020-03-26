@@ -43,7 +43,7 @@ def setup_parser():
         '--listen-port',
         dest='listen_port',
         help='prometheus exporter listen port',
-        default=os.environ.get("DRONE_LISTEN_PORT", "9184"))
+        default=os.environ.get("DRONE_LISTEN_PORT", "9698"))
     return parser.parse_args()
 
 #def config(section):
